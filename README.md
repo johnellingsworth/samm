@@ -1,6 +1,8 @@
 SAMM (Software Assurance Maturity Model )
 ========
 
+[![wercker status](https://app.wercker.com/status/0ca0315897dfeb4e612355049a38bf62/s/master "wercker status")](https://app.wercker.com/project/byKey/0ca0315897dfeb4e612355049a38bf62)
+
 Welcome to the OWASP SAMM github repository.
 
 This repository contains the source files for OWASP SAMM.
@@ -17,8 +19,13 @@ Or speak to us on our [Slack channel](https://owasp.slack.com/messages/C0VF1EJGH
 - Website: source for the static website and related libraries
 - Supporting Resources: other files, notes and presentations that do not follow the Hugo model
 
+## Contributions
+
+Please see guidance here: [/Current Releases/head/contributing-to-git.md](https://github.com/OWASP/samm/blob/master/Current%20Releases/head/contributing-to-git.md).
+
 ## Custom Development
 * Install hugo or pull a hugo docker image
 * Clone this repo
 * Change directory to _Website/hugo_
 * Execute `hugo server`
+

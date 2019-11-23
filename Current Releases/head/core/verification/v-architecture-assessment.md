@@ -44,7 +44,6 @@ Developers understand the architecture, interfaces, and how to secure them.
 Identify application and infrastructure architecture components. Create a simplified view of the overall architecture. Do this based on project artifacts such as high-level requirements and design documents, interviews with technical staff, or module-level review of the code base.
 Identify the infrastructure components. These are all the systems, components and libraries (including SDKs) that are not specific to the application, but provide direct support to use or manage the application(s) in the organisation.
 From the architecture view, analyze each component in terms of accessibility of the interfaces from authorized users, anonymous users, operators, application-specific roles, etc.
-For each interface note any security-related functionality and check the model for design-level consistency for how interfaces with similar access are secured. Note any breaks in consistency as assessment findings.
 
 #### Maturity Questions
 ##### Q 1
@@ -77,9 +76,21 @@ by combining application and supporting architecture, we can introduce an extra 
 threat modeling as a verification activity versus design? (TBD)
 -->
 
+#### SAMM References
+* SR-A-1 identify security objectives
+* TA-B-1 identify the most important threats
+* DM-A-1 log missing security controls as security defects 
+
+#### OWASP References
+* Link 1
+* Link 2
+
+#### External References
+* Link 1
+* Link 2
+
 #### Guidance
 https://www.owasp.org/index.php/How_to_perform_a_security_architecture_review_at_Level_1 . 
-https://www.owasp.org/index.php/ASVS_V1_Architecture . 
 http://www.guidanceshare.com/wiki/Security_Engineering_Explained_-_Chapter_5_-_Security_Architecture_and_Design_Review
 
 ## Maturity 2 - Validate the architecture security mechanisms
@@ -88,6 +99,8 @@ This activity validates the security mechanisms on the attack surface of the sof
 
 ### Activity
 For each interface in the application and infrastructure architecture, formally iterate through the list of security mechanisms and analyze the system for their provision. Perform this type of analysis  on both internal interfaces, e.g. between tiers, as well as external ones, e.g. those comprising the attack surface.
+
+For each interface note any security-related functionality and check the model for design-level consistency for how interfaces with similar access are secured. Note any breaks in consistency as assessment findings.
 
 The six main security mechanisms to consider are authentication, user access management, input validation, output encoding, error handling, and logging. Where relevant, also consider the mechanisms of cryptography or privacy. For each interface, determine where in the system design each mechanism is provided and note any missing or unclear features as findings. Identify and validate the high-risk design decisions made as part of the architecture.
 Conduct analysis to update the findings based on changes made during the development cycle.
@@ -110,6 +123,19 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 * remove/adapt list of 6 in maturity 2. Perhaps add user/access management. (DONE)
 *  Architecture review should be performed once per release is not CICD friendly. Need to establish what a release is. Or reword. (DONE)
 -->
+
+#### SAMM References
+* SM-A-1 identify organization’s risk tolerance
+* SR-A-2 identify relevant security requirements
+
+#### OWASP References
+* Link 1
+* Link 2
+
+#### External References
+* Link 1
+* Link 2
+
 #### Guidance
 
 ## Maturity 3 - Review of the architecture components effectiveness
@@ -136,6 +162,19 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <!--
 #### Notes
 -->
+
+#### SAMM References
+* Link 1
+* Link 2
+
+#### OWASP References
+* Link 1
+* Link 2
+
+#### External References
+* Link 1
+* Link 2
+
 #### Guidance
 
 # B: Architecture Compliance
@@ -170,6 +209,19 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <!--
 #### Notes
 -->
+
+#### SAMM References
+* Link 1
+* Link 2
+
+#### OWASP References
+* Link 1
+* Link 2
+
+#### External References
+* Link 1
+* Link 2
+
 #### Guidance
 
 ## Maturity 2 - Analyze the architecture against known security requirements and best practices
@@ -195,6 +247,19 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <!--
 #### Notes
 -->
+
+#### SAMM References
+* Link 1
+* Link 2
+
+#### OWASP References
+* Link 1
+* Link 2
+
+#### External References
+* Link 1
+* Link 2
+
 #### Guidance
 Assures improvement of the security architecture practice, based on feedback from the architecture assessment activities. 
 
